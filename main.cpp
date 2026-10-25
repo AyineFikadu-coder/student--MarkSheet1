@@ -47,4 +47,4 @@ int main() {
              << avg[i] << endl;
     }
     cout << "\nTop student: " << names[top] << endl;
-    return 0;
+    return 0;}
