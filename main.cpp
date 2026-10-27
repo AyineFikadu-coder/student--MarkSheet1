@@ -46,5 +46,11 @@ int main() {
              << fixed << setprecision(1)
              << avg[i] << endl;
     }
-    cout << "\nTop student: " << names[top] << endl;
+    cout << "\nTop student(s):" << endl;
+
+for (int i = 0; i < 5; i++) {
+    if (total[i] == total[top]) {
+        cout << names[i] << endl;
+    }
+}
     return 0;}
